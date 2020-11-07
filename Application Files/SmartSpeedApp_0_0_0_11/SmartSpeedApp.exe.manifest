@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SmartSpeedApp.exe" version="0.0.0.11" publicKeyToken="a8d8b1504ae27003" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\SekoIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SmartSpeedApp" version="0.0.1.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SmartSpeedApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CurrencyTextBoxControl.dll" size="14336">
+      <assemblyIdentity name="CurrencyTextBoxControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YCtJfdbgXv5F+dYPkokM39yh1Tdqu3ngD2fgjH4Ltb8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="90112">
+      <assemblyIdentity name="Domain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jGJaCIXTZQp5w33I5VVSxtk/AMQj6IcOqKUz7tI0HXU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Infra.dll" size="123904">
+      <assemblyIdentity name="Infra" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Tdn8LNl9C5LeJYuNt62xJ7NqEsCMfM0kfm+d2C7DbH4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="4079616">
+      <assemblyIdentity name="itextsharp" version="5.5.13.1" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VUC+CCHYMD3JRf0r0cYggs26RiYOUniYX6CGYkLerdI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignColors.dll" size="299520">
+      <assemblyIdentity name="MaterialDesignColors" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R/u7C+Q/YHybPKqAjMRCK9htSb4wLsNr3zkLB9N36cU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignThemes.Wpf.dll" size="6930944">
+      <assemblyIdentity name="MaterialDesignThemes.Wpf" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oGtT1BOrDhL58JG87kqazxDhxxmKVgUs5c+RANIyNck=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartSpeedApp.exe" size="548296">
+      <assemblyIdentity name="SmartSpeedApp" version="0.0.1.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nHYX+Sr3LyCtW8hEEd+80rJkzIdIMcGqnY2Jh7aTF70=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UsbHid.dll" size="22016">
+      <assemblyIdentity name="UsbHid" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hockl4kBcvKJJU2cPZlEqmWN+otIZDYBS5fHsnVFWiw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\SekoIcon.ico" size="270398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>it4saj0IOsM6jn2qq9AdUOirWjk4Pp2ZM+LNscR72/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SmartSpeedApp.exe.config" size="1154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CE+0kJB0BrgxQ6w9de69KWpb4AbQTa27HovO7ejLnH8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LCFC-DESK-I7\LCFC" issuerKeyHash="c4454d18dfeaa7c9e91b018bf02e1e8834371465" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gb57uQlcm8jsrQec94FiwdLsU3HCD1dQZvUjYxwAE0o=</DigestValue></Reference></SignedInfo><SignatureValue>HsGFnFYnQFMOuyhGjm3g2mAFPHxBc3gxOABHw406AC/gnOyYurI9i68NHhm4f4LpAaMqvwtNupdq6H6G9Hz6hkZwKwNe8/28eqiawi1TYe8bBYr6zMgG/QuzaBVoio7XHjpmw8odiSJBl22dEb7W+9XXdwrWuaN7PfmOdKH8JWs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zMCfZhCvXhNgVwMFe+dTXa2gXTI2i6W8cPDIhsxxhwXcmtTkqF9q8qb22Vl7RSkKaxldANti3LO7Pm+fWPw/K0/606NCfA9/zsZUsqTm6mGk33HFw2eZfGhxTNF1W2qcywuuTL+YlUgJ2iA89sgw4c+ygXjnRPD3fBFmky63mcU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4a13001c6323f56650570fc27153ecd2c16281f79c07adecc89b5c09b97bbe81" Description="" Url=""><as:assemblyIdentity name="SmartSpeedApp.exe" version="0.0.0.11" publicKeyToken="a8d8b1504ae27003" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LCFC-DESK-I7\LCFC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>a3Y8wW0z0lNQpdVIR7Blj5sFTRBVYAC1ZQKowOJqB3E=</DigestValue></Reference></SignedInfo><SignatureValue>Dde8TSEwTz9jfnLnzuGep+OpzBsEjU0aCJHe5x5SKGpbAdR4JiCLd4z1qKx5sUAGrDgOv11FLvWhlpBaNHU4TIdC0W9d+XweYnsDxqJ48PbJj06xishKJzhEih9TQxnQLpMdTKeB3j+fgsikvpPH0ZdD4OiTCRWQhjggYXiaq4k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zMCfZhCvXhNgVwMFe+dTXa2gXTI2i6W8cPDIhsxxhwXcmtTkqF9q8qb22Vl7RSkKaxldANti3LO7Pm+fWPw/K0/606NCfA9/zsZUsqTm6mGk33HFw2eZfGhxTNF1W2qcywuuTL+YlUgJ2iA89sgw4c+ygXjnRPD3fBFmky63mcU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQFB0yH9btSYJKSeAqm3ZDUjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIATABDAEYAQwAtAEQARQBTAEsALQBJADcAXABMAEMARgBDMB4XDTIwMTAyNTAxNTgxMVoXDTIxMTAyNTA3NTgxMVowLTErMCkGA1UEAx4iAEwAQwBGAEMALQBEAEUAUwBLAC0ASQA3AFwATABDAEYAQzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzMCfZhCvXhNgVwMFe+dTXa2gXTI2i6W8cPDIhsxxhwXcmtTkqF9q8qb22Vl7RSkKaxldANti3LO7Pm+fWPw/K0/606NCfA9/zsZUsqTm6mGk33HFw2eZfGhxTNF1W2qcywuuTL+YlUgJ2iA89sgw4c+ygXjnRPD3fBFmky63mcUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQDFbrZlDqkncQjc5ZJryOfhm4XnlDQvMNn2wG5zATx9rl85XzbtTWgHoXJpBiidpHa4fr5+B480FmFY/wz31sGrZvprb9lk+hGya5SW2m/PNTaQZwW7ewWSQjRUNxGBNo+FXlYM5HBbzY7JXr9FIo2qdfMqYAlYG8lQbYX/8KO1Uw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
