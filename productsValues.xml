@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Produtos>
+  <Produto>
+    <Codigo>txtProduto1</Codigo>
+    <Valor>R$ 17,16</Valor>
+  </Produto>
+  <Produto>
+    <Codigo>txtProduto2</Codigo>
+    <Valor>R$ 19,20</Valor>
+  </Produto>
+  <Produto>
+    <Codigo>txtProduto3</Codigo>
+    <Valor>R$ 11,40</Valor>
+  </Produto>
+  <Produto>
+    <Codigo>txtProduto4</Codigo>
+    <Valor>R$ 12,80</Valor>
+  </Produto>
+  <Produto>
+    <Codigo>txtProduto5</Codigo>
+    <Valor>R$ 7,40</Valor>
+  </Produto>
+  <Produto>
+    <Codigo>txtProduto6</Codigo>
+    <Valor>R$ 84,50</Valor>
+  </Produto>
+  <Produto>
+    <Codigo>txtProduto7</Codigo>
+    <Valor>R$ 0,00</Valor>
+  </Produto>
+  <Produto>
+    <Codigo>txtProduto8</Codigo>
+    <Valor>R$ 0,00</Valor>
+  </Produto>
+</Produtos>
